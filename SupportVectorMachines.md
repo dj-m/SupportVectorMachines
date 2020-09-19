@@ -30,9 +30,11 @@ The main ideas behind Support Vector Machines:
   - When d = 1, the Polynomial Kernel computes the relationships between each pair of observations in _1-Dimension_ and these relationships are used to find a SVC.
   - When d = 2, the Polynomial Kernel computes the relationships between each pair of observations in _2-Dimensions_.
   <br>
+  
   | ![x](images/polynomialkernel_d2.png) |
   | :-: |
   | ![x](images/polynomialkernel_d2_svc.png) |
+  
   <br>
   - A good value for **_d_** can be found using **Cross Validation**.
   
@@ -40,10 +42,12 @@ The main ideas behind Support Vector Machines:
   - Primarily used to find **Support Vector Classifiers** in _infinite dimensions_.
   - However, when classifying _1-Dimensional_ observations, it functions like a **Weighted Nearest Neighbor** model and associated the nearest observations to one classifier or the other:
   <br>
+  
   | ![x](images/rbf_1.png) |
   | :-: |
   | ![x](images/rbf_2.png) |
   | ![x](images/rbf_3.png) |
   | ![x](images/rbf_4.png) |
+  
   <br>
   
