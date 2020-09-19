@@ -16,6 +16,8 @@
 
 ### Support Vector Machines ###
 
+When there're 2 categories, but no obvious linear classifier that separates them in a nice way, **Support Vector MAchines** work by moving the data into a relatively high dimensional space and finding a relatively high dimensional **Support Vector Classifier** that can effectively classify the observations.
+
 **Support Vector Machines (SVM)**: Add dimensionality to observations such that a SVC can be applied to properly classify data that doesn't neatly segment itself in lower dimensions.
 
 The main ideas behind Support Vector Machines:
@@ -36,6 +38,7 @@ The main ideas behind Support Vector Machines:
   | ![x](images/polynomialkernel_d2_svc.png) |
   
   <br>
+  
   - A good value for **_d_** can be found using **Cross Validation**.
   
 - **Radial Kernel AKA Radial Basis Function (RBF) Kernel** is also very commonly used.
@@ -51,3 +54,6 @@ The main ideas behind Support Vector Machines:
   
   <br>
   
+**Kernel Trick**: Because Kernel functions only calculate the relationships between every pair of points as _if_ they're in higher dimensions; they don't _actually_ do the transformations, it's called a **trick** 
+
+- This trick reduces the computation required for **Support Vector Machines** by avoiding the math that transforms the data from low to high dimensions and it makes calculating relationships in the infinite dimensions used by the **Radial Kernel** possible.
