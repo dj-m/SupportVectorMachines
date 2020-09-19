@@ -30,6 +30,7 @@ The main ideas behind Support Vector Machines:
   - When d = 1, the Polynomial Kernel computes the relationships between each pair of observations in _1-Dimension_ and these relationships are used to find a SVC.
   - When d = 2, the Polynomial Kernel computes the relationships between each pair of observations in _2-Dimensions_.
   
-  ![x](images/polynomialkernel_d2.png)
-  
+  | ![x](images/polynomialkernel_d2.png) |
+  | :-: |
+  | ![x](images/polynomialkernel_d2_svc.png) |
   
